@@ -1,0 +1,149 @@
+* {
+    margin: 0;    
+        
+    }
+    body {
+        display: flex;
+        flex-direction:column;
+    }
+    header {
+        background-color: #1f2937;
+        color: white;
+        padding: 0 15%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .header-logo {
+        font-size: 24px;
+        color: #f9faf8;
+    }
+    .nav-main {
+        font-size: 18px;
+        color: #e5e7eb;
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        display: flex;
+        gap:10px;
+    }
+    .hero {
+        background-color: #1f2937;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0 15%;
+    }
+    h1.hero-main-text {
+        font-size: 48px;
+        font-weight: 800;
+        color: #f9faf8;
+        padding-bottom: 15px;
+    }
+    p.hero-second {
+        font-size: 18px;
+        color: #e5e7eb;
+    }
+    .button-hero {
+        background-color: #3882f6;
+        color: white;
+        padding: 10px 25px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 12px;
+        border: 0px;
+        margin: 40px 0;
+    }
+    .hero-img {
+        width: 350px;   
+        margin: 50px 0 30px 100px;
+        border-radius: 12px;
+    }
+    .four-photos {
+        padding: 75px 20%
+    }
+    .four-photo-img {
+        width: 200px;
+        border: 3px solid #3882f6;
+        border-radius: 12px; 
+        
+    }
+    .random-info {
+        font-size: 36px;
+        text-align: center;
+        font-weight: 800;
+        color: #1f2937;
+        padding-bottom: 75px;
+    }
+    .foto {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: center;  
+    }
+    .info-box {
+        border-radius: 12px;
+    
+    }
+    .sub-text  {
+        max-width: 200px;
+    }
+    .quotation {
+        background-color: #E5E7EB;
+        padding: 100px 20%;
+        margin: 50px 0 ;
+    }
+    .quote {
+        font-size: 36px;
+        font-style: light italic;
+        color: #1f2937;
+        text-align: left;
+        margin-bottom: 0;
+    }
+    .quote-author {
+        font-weight: 800;
+        font-size: 20px;
+        text-align: end;
+        margin-top: 10px;
+    }
+    .call-action {
+        padding: 75px 15%;
+        margin: 50px 0;
+    }
+    .action-container {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background-color: #3882f6;
+        border-radius: 12px;
+        padding: 75px;
+    }
+    .action-button {
+        background-color: #3882f6;
+        color: white;
+        padding: 10px 25px;
+        font-weight: bold;
+        text-align: center;
+        border-radius: 12px;
+        border: 1px solid white;
+    }
+    .action {
+        color: white;
+        font-weight: 800;
+        font-size: 24px;
+    }
+    .action-small {
+        color: #e5e7eb;
+    }
+    footer {
+        padding: 20px;
+        background-color: #1f2937;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: auto;
+        color: #e5e7eb;
+    }
+    
+    /* Ka galima pridet kad linkai butu i kazkur ir hoover uzmesti */
+    
